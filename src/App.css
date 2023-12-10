@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.all{
+  overflow-y: hidden;
+  background-color: rgba(215, 244, 250, 0.42);
+}
+
+.header {
+  display: flex;
+  width: 98.7vw;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 120px;
+  color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  z-index: 1;
+}
+
+.imgTitle {
+  width: 100vw;
+  height: 400px;
+  object-fit: cover 5px;
+  position: relative;
+}
+
+.MainCard {
+  width: 98.5vw;
+  height: 1180px;
+
+}
+.mm{
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 20px; */
+  justify-content: center;
+  gap: 10px;
+}
+
+.PopularTopics {
+  padding: 100px 0 10px 50px;
+}
+.imgCard{
+  width: 270px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.p{
+  color: rgb(64, 64, 64);
+}
+.card{
+  width: 280px;
+  height: 470px;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.piska{
+  font-size: smaller;
+  padding: 10px 0 10px 0;
+
+}
+.h3{
+  text-decoration: none;
+  color: rgb(91, 91, 91);
+
+}
+.h3:hover{
+  color: rgb(0, 0, 0);
+}
+.date{
+  font-size: small;
+  padding: 10px 0 10px 0;
+}
